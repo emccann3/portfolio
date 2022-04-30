@@ -8,7 +8,15 @@ import Logo from './Logo';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n'] // TODO - update to my name 
-    const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.',] // TODO - create a function to take a string and create this array. 
+    const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.',] // TODO - create a function to take a string and create this array.
+    // Example below: 
+    // const title = "Contact me"
+    // const titleArray = Array.from({length: title.length}, (_, i) => title[i])
+    //                     <AnimatedLetters
+    //                         letterClass={letterClass}
+    //                         strArray={titleArray}
+    //                         idx={15}
+    //                     />
 
     // useEffect(() => {
     //     setTimeout(() => {
