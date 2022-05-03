@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { Loader } from 'react-loaders'
 import emailjs from '@emailjs/browser'
+import { MapContainer, Marker, TileLayer, Popup } from 'react-leaflet'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,12 +28,11 @@ const Contact = () => {
                 'jJGcw1L6es_1u37Sc')
             .then(
                 () => {
-                    console.log(refForm.current)
+                    // Update alert to be an onscreen message
                     alert('Message successfully sent!')
                     window.location.reload(false)
                 },
                 () => {
-                    console.log(refForm.current)
                     alert('Failed to send the message, please try again')
                 }
             )
@@ -87,6 +87,23 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                </div>
+                <div className='info-map'>
+                    Emma McCann,
+                    <br />
+                    Northern Ireland,
+                    <br />
+                    Floor 8 Lanyon Plaza <br />
+                    Belfast <br />
+                    <span>emccann1702@gmail.com</span>
+                </div>
+                <div className='map-wrap'>
+                    <MapContainer center={[54.59600, -5.91841]} zoom={13}>
+                        <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
+                        <Marker position={[54.59600, -5.91841]}>
+                            <Popup>Bazaarvoice Belfast City Center Office</Popup>
+                        </Marker>
+                    </MapContainer>
                 </div>
             </div>
             <Loader type="pacman" />
