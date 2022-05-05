@@ -50,7 +50,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Don't hesitate to contact me with any questions or even just for a wee chat.
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>

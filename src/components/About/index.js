@@ -2,7 +2,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faGitAlt, faJsSquare, faReact, faHtml5, faCss3 } from '@fortawesome/free-brands-svg-icons'
+import { faJava, faGitAlt, faJsSquare, faReact, faAws, faJenkins } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders';
 
 const About = () => {
@@ -28,28 +28,28 @@ const About = () => {
                     </h1>
                     {/* Fill these sections in later */}
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        25 year old Senior Software Engineer currently employed at Bazaarvoice Belfast. I'm Tech Lead of a team that supports and maintains client facing self-service applications that provide the ability to configure the display and submission of their reviews.
                     </p>
                     <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        My experience includes working with multiple Java Spring applications with Maven and Scala applications hosted on AWS infrastructure and built and deployed using the CI/CD software Jenkins. I'm also a member of the Leadership Community of Practive committee where we organise monthly Leadership talks and activities and I host the quarterly Leadership bookclub.
                     </p>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        In my free time I like to unwind with some reading and Netflix. Most recently I've began learning to crochet and hope to have my first blanket finished soon!
                     </p>
                 </div>
 
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
-                        {/* Update icons with my skills i.e Java, Maven, AWS, Github, Jenkins, Javascript (change colours too)*/}
+                        {/* Update icons with my skills i.e Maven, (change colours too)*/}
 
                         <div className='face1'>
-                            <FontAwesomeIcon icon={faAngular} />
+                            <FontAwesomeIcon icon={faJava} />
                         </div>
                         <div className='face2'>
-                            <FontAwesomeIcon icon={faHtml5} />
+                            <FontAwesomeIcon icon={faAws} />
                         </div>
                         <div className='face3'>
-                            <FontAwesomeIcon icon={faCss3} />
+                            <FontAwesomeIcon icon={faJenkins} />
                         </div>
                         <div className='face4'>
                             <FontAwesomeIcon icon={faReact} />

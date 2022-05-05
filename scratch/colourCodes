@@ -1,0 +1,35 @@
+# Scenario 1 - Favourite so far
+background: #47B3CD; //blue
+text: white 
+Logo: #F8A3D8 // Pink
+onHover: #ffd700 // Yellow 
+button: #ffd700 // Yellow
+h1,h2,html,body: #ffd700 // Yellow 
+Nav-bar: not sure?
+
+# Scenario 2 - Not fussed on this one
+background: #F8A3D8 // Pink
+text: white 
+Logo: #ffd700 // Yellow 
+onHover: #47B3CD; //blue
+button: #47B3CD; //blue
+h1,h2,body,html: #47B3CD; //blue
+Nav-bar: not sure?
+
+# Scenario 3 - Meh
+background: #ffd700 // Yellow
+text: white
+Logo: #47B3CD; //blue
+onHover: #F8A3D8 // Pink
+button: #F8A3D8 // Pink
+h1,h2,body,html: #F8A3D8 // Pink
+Nav-bar: not sure?
+
+# Scenario 4 - Second favourite 
+background: #47B3CD; //blue
+text: white 
+Logo: #ffd700 // Yellow
+onHover: #F8A3D8 // Pink
+button: #F8A3D8 // Pink
+h1,h2,html,body: #F8A3D8 // Pink
+Nav-bar: not sure?

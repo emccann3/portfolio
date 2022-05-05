@@ -1,6 +1,5 @@
 import './index.scss'
 import LogoS from '../../../assets/images/logo-s.png'
-import { useRef } from 'react'
 
 const Logo = () => {
     return (
