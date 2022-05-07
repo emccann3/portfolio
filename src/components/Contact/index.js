@@ -62,8 +62,7 @@ const Contact = () => {
                                     <input
                                         placeholder="Email"
                                         type="email"
-                                        name="user_email"
-                                        required
+                                        name="user_email" required
                                     />
                                 </li>
                                 <li>

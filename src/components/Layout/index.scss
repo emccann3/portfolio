@@ -54,8 +54,8 @@
         h1 {
             font-size: 53px;
             font-family: 'Coolvetica';
-            color: #ffd700;
-            font-weight: 400;
+            color: #F8A3D8;
+            font-weight: 700;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
@@ -64,9 +64,10 @@
             &:before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore', cursive;
-                color: #ffd700;
+                color: #F8A3D8;
                 font-size: 18px;
                 position: absolute;
+                font-weight: 700;
                 margin-top: -10px;
                 left: -10px;
                 opacity: 0.6;
@@ -76,8 +77,9 @@
             &:after {
                 content: '<h1/>';
                 font-family: 'La Belle Aurore', cursive;
-                color: #ffd700;
+                color: #F8A3D8;
                 font-size: 18px;
+                font-weight: 700;
                 line-height: 18px;
                 position: absolute;
                 left: -30px;
